@@ -12,7 +12,7 @@
 
 fn average(values: &[f64]) -> f64 {
     let total = values.iter().sum::<f64>();
-    let count = values.len() as f64;
+    let count = values.len() as f64; //类型转换
     total / count
 }
 
